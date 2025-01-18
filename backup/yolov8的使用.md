@@ -1,11 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://makai-dog.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Sat, 18 Jan 2025 17:11:03 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>yolov8的使用</title><link>https://makai-dog.github.io/post/yolov8-de-shi-yong.html</link><description># 关于yolov8的使用
+# 关于yolov8的使用
 
-&gt;本篇markdown文件主要讲解yolov8的使用，源代码请从GitHub上自行clone，环境配置请查看GitHub上的yolov8（ultralytics）对环境配置的要求，或者说，其实主要需要下载Anaconda，CUDA，CUDNN，pytorch等
+>本篇markdown文件主要讲解yolov8的使用，源代码请从GitHub上自行clone，环境配置请查看GitHub上的yolov8（ultralytics）对环境配置的要求，或者说，其实主要需要下载Anaconda，CUDA，CUDNN，pytorch等
 
 ## 1.VScode软件安装
 
-[vscode下载](https://blog.csdn.net/weixin_43121885/article/details/131779104?fromshare=blogdetail&amp;sharetype=blogdetail&amp;sharerId=131779104&amp;sharerefer=PC&amp;sharesource=2302_80370776&amp;sharefrom=from_link)
+[vscode下载](https://blog.csdn.net/weixin_43121885/article/details/131779104?fromshare=blogdetail&sharetype=blogdetail&sharerId=131779104&sharerefer=PC&sharesource=2302_80370776&sharefrom=from_link)
 可以查阅这篇csdn文档，先下载Windows版本
 
 ## 2.Python环境配置
@@ -16,11 +15,11 @@
 ## 3.Anaconda,CUDA,CUDNN,pytorch的安装
 
 其实更希望大家自行查阅相关软件和环境的配置安装方法，但貌似也没什么必要，所以继续附上链接：
-[Anaconda,CUDA,CUDNN,pytorch讲解和安装文档](https://blog.csdn.net/Little_Carter/article/details/135934842?fromshare=blogdetail&amp;sharetype=blogdetail&amp;sharerId=135934842&amp;sharerefer=PC&amp;sharesource=2302_80370776&amp;sharefrom=from_link)
+[Anaconda,CUDA,CUDNN,pytorch讲解和安装文档](https://blog.csdn.net/Little_Carter/article/details/135934842?fromshare=blogdetail&sharetype=blogdetail&sharerId=135934842&sharerefer=PC&sharesource=2302_80370776&sharefrom=from_link)
 
 到此，使用yolo目标检测的前期配置基本完成（如有遗漏还请指正），另外，上述需要安装的内容有很多教程，大家也可以找自己看着顺眼的（推荐）
 
-&gt;接下来正式来到yolov8的使用环节，yolov8代码包的下载最好去GitHub找，
+>接下来正式来到yolov8的使用环节，yolov8代码包的下载最好去GitHub找，
  或者我压缩给大家
 
 ## 1.yolov8文件包的解读
@@ -101,4 +100,3 @@ yolo predict model=D:/ultralytics/yolov8s.pt source=0 show
 ![1729929656583](image/explain/1729929656583.png)
 ![1729929740330](image/explain/1729929740330.png)
 ![1729929838667](image/explain/1729929838667.png)
-。</description><guid isPermaLink="true">https://makai-dog.github.io/post/yolov8-de-shi-yong.html</guid><pubDate>Sat, 18 Jan 2025 17:10:43 +0000</pubDate></item></channel></rss>
