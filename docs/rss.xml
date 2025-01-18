@@ -1,5 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://makai-dog.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Sat, 18 Jan 2025 17:11:03 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>yolov8的使用</title><link>https://makai-dog.github.io/post/yolov8-de-shi-yong.html</link><description># 关于yolov8的使用
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://makai-dog.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Sat, 18 Jan 2025 17:12:25 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>GIT的使用</title><link>https://makai-dog.github.io/post/GIT-de-shi-yong.html</link><description># 将本地文件夹push到远端GitHub仓库
+
+```bash
+git init
+```
+
+```bash
+git branch -M main
+```
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'first commit'
+```
+
+```bash
+git remote add origin https:...（http这改为要上传的远端仓库的路径）
+```
+
+```bash
+git push -u origin main
+```
+。</description><guid isPermaLink="true">https://makai-dog.github.io/post/GIT-de-shi-yong.html</guid><pubDate>Sat, 18 Jan 2025 17:11:55 +0000</pubDate></item><item><title>yolov8的使用</title><link>https://makai-dog.github.io/post/yolov8-de-shi-yong.html</link><description># 关于yolov8的使用
 
 &gt;本篇markdown文件主要讲解yolov8的使用，源代码请从GitHub上自行clone，环境配置请查看GitHub上的yolov8（ultralytics）对环境配置的要求，或者说，其实主要需要下载Anaconda，CUDA，CUDNN，pytorch等
 
