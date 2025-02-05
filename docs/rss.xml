@@ -1,5 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>北洋动力无人车队技术文档</title><link>https://makai-dog.github.io</link><description>PPRT's tec</description><copyright>北洋动力无人车队技术文档</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174258020?v=4</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Mon, 20 Jan 2025 19:14:08 +0000</lastBuildDate><managingEditor>北洋动力无人车队技术文档</managingEditor><ttl>60</ttl><webMaster>北洋动力无人车队技术文档</webMaster><item><title>博客的应用</title><link>https://makai-dog.github.io/post/bo-ke-de-ying-yong.html</link><description># 北洋动力车队技术博客的使用
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>北洋动力无人车队技术文档</title><link>https://makai-dog.github.io</link><description>PPRT's tec</description><copyright>北洋动力无人车队技术文档</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174258020?v=4</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Wed, 05 Feb 2025 09:26:40 +0000</lastBuildDate><managingEditor>北洋动力无人车队技术文档</managingEditor><ttl>60</ttl><webMaster>北洋动力无人车队技术文档</webMaster><item><title>GIT分支的操作</title><link>https://makai-dog.github.io/post/GIT-fen-zhi-de-cao-zuo.html</link><description># GIT分支的操作
+
+在开发无人车的ROS包时,我们要在分支(即特性分支)上进行修改,合并到main主分支(主干分支)上
+
+## 具体操作
+
+1. 显示分支一览表
+
+```bash
+git branch
+```
+
+2. 创建和切换到新的分支feature-A
+
+```bash
+git branch feature-A
+```
+
+3. 合并分支的更改,到主干分支上
+**假设特性分支已经实现完毕,想将它合并到主干分支main中**
+
+```bash
+git checkout main
+switched to branch 'main'
+```
+
+```bash
+git merge --no-ff feature-A
+```
+
+**在合并时加上--no-ff参数，因为了在历史记录中明确记录下，本次分支合并，所以需要创建合并提交**
+
+4. 回溯历史版本
+
+```bash
+git reset --hard 目标时间点的哈希值
+```
+。</description><guid isPermaLink="true">https://makai-dog.github.io/post/GIT-fen-zhi-de-cao-zuo.html</guid><pubDate>Wed, 05 Feb 2025 09:26:12 +0000</pubDate></item><item><title>博客的应用</title><link>https://makai-dog.github.io/post/bo-ke-de-ying-yong.html</link><description># 北洋动力车队技术博客的使用
 
 ## 如何推送新的文章
 
