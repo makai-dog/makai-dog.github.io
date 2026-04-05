@@ -1,20 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MAKAI Blog</title><link>https://makai-dog.github.io</link><description>Welcome to my blog</description><copyright>MAKAI Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Sat, 04 Apr 2026 15:14:30 +0000</lastBuildDate><managingEditor>MAKAI Blog</managingEditor><ttl>60</ttl><webMaster>MAKAI Blog</webMaster><item><title>ROS</title><link>https://makai-dog.github.io/post/ROS.html</link><description># 在Ubuntu中配置ROS
-
-```bash
-# 先更新apt
-sudo apt update
-# 再使用小鱼的一键安装脚本
-wget http://fishros.com/install -O fishros &amp;&amp; . fishros
-```
-
-然后我们按照如下步骤去选择：
-![选择ROS版本](1.png)
-选择[1]
-![选择ROS版本](2.jpg)
-选择[1]
-![选择ROS版本](3.jpg)
-选择[1]中科大镜像源
-![选择ROS版本](4.jpg)
-选择[3]noetic
-。</description><guid isPermaLink="true">https://makai-dog.github.io/post/ROS.html</guid><pubDate>Sat, 04 Apr 2026 15:08:30 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MAKAI Blog</title><link>https://makai-dog.github.io</link><description>Welcome to my blog</description><copyright>MAKAI Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://makai-dog.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 04:24:04 +0000</lastBuildDate><managingEditor>MAKAI Blog</managingEditor><ttl>60</ttl><webMaster>MAKAI Blog</webMaster></channel></rss>
